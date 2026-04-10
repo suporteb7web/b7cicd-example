@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# Load NVM if you used NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
 set -e  # para o script se qualquer comando falhar
 
 echo "→ Entrando na pasta do projeto..."
