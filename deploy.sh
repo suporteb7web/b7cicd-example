@@ -15,7 +15,7 @@ echo "→ Instalando dependências..."
 npm install --production
 
 echo "→ Fazendo o build..."
-npm run build
+npx tsc
 
 echo "→ Reiniciando a aplicação..."
 pm2 restart api
