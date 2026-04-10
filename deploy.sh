@@ -15,7 +15,7 @@ echo "→ Instalando dependências..."
 npm install
 
 echo "→ Fazendo o build..."
-npx --package typescript tsc
+npm run build
 
 echo "→ Reiniciando a aplicação..."
 pm2 restart api
