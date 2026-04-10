@@ -4,6 +4,12 @@ on:
   pull_request:
     branches:
       - develop
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'package.json'
+      - 'tsconfig.json'
+      - '.github/workflows/**'
 
 jobs:
   test:
