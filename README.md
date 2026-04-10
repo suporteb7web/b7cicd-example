@@ -1,4 +1,4 @@
-(ITEM EDITADO 2.0)
+(ITEM EDITADO 3.0)
 
 # b7cicd-example
 
