@@ -1,4 +1,4 @@
-(ITEM EDITADO)
+(ITEM EDITADO 2.0)
 
 # b7cicd-example
 
@@ -29,14 +29,14 @@ A API ficará disponível em `http://localhost:3000`.
 
 ## Scripts disponíveis
 
-| Comando             | O que faz                                      |
-|---------------------|------------------------------------------------|
-| `npm start`         | Compila e sobe a aplicação                     |
-| `npm run dev`       | Sobe em modo watch (sem precisar compilar)     |
-| `npm run build`     | Compila o TypeScript para a pasta `dist/`      |
-| `npm test`          | Roda os testes                                 |
-| `npm run lint`      | Verifica o código com ESLint                   |
-| `npm run typecheck` | Verifica os tipos sem compilar (`tsc --noEmit`)|
+| Comando             | O que faz                                       |
+| ------------------- | ----------------------------------------------- |
+| `npm start`         | Compila e sobe a aplicação                      |
+| `npm run dev`       | Sobe em modo watch (sem precisar compilar)      |
+| `npm run build`     | Compila o TypeScript para a pasta `dist/`       |
+| `npm test`          | Roda os testes                                  |
+| `npm run lint`      | Verifica o código com ESLint                    |
+| `npm run typecheck` | Verifica os tipos sem compilar (`tsc --noEmit`) |
 
 ---
 
