@@ -12,7 +12,7 @@ echo "→ Atualizando o código..."
 git pull origin develop
 
 echo "→ Instalando dependências..."
-npm install --production
+npm install
 
 echo "→ Fazendo o build..."
 npx --package typescript tsc
