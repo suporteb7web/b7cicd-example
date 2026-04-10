@@ -9,6 +9,9 @@ import {
 
 const router = Router();
 
+router.get('/ping', (req, res) => {
+  res.json({ pong: true, v: 1 });
+});
 router.get('/tasks', getTasks);
 router.get('/tasks/:id', getTaskById);
 router.post('/tasks', createTask);
