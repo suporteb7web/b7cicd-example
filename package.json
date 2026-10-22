@@ -17,7 +17,7 @@
     "build": "tsc",
     "test": "jest --forceExit",
     "lint": "eslint src tests --ext .ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit "
   },
   "dependencies": {
     "cors": "^2.8.6",
